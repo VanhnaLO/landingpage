@@ -7,10 +7,11 @@ body {
 }
 
 /*========== nav, logo ==========*/
-header, nav {
+nav {
     list-style: none;
     text-align : center;
     margin-left: 3%;
+    color: #594a49;
 }
 
 nav img {
@@ -18,7 +19,7 @@ nav img {
     float: left;
 }
 
-li #fond-categorie1 {
+ul li #fond-categorie1 {
     width: 153px;
     overflow: hidden;
     border: 1px solid #ecebe7;
@@ -48,6 +49,7 @@ div img {
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
+    color: #594a49;
 }
 
 p {
@@ -56,19 +58,43 @@ p {
     text-align: justify;
     padding-bottom: 70px;
     margin-bottom: 25px;
+    color: #9b9393;
 }
 
 .texte1, .texte2, .texte3, .texte4 {
     justify-content: center;
 }
+/*========== boutons ==========*/
 
-
+.buttons1, .buttons2 {
+    justify-content: center;
+}
 
 
 /*========== footer ==========*/
+
+.copyright {
+    letter-spacing: 1px;
+}
+
 .pied-page {
-    font-size: 20px;
+    font-family: Chalkboard;
+}
+
+.pied-page {
+    font-family: Chalkboard;
+    font-size: 14px;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: start;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: #594a49;
+}
+
+.color-webdrive {
+    color: #594a49;
+    font-family: Chalkboard;
+    font-weight: bold;
+    
 }
