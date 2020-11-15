@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Test schema_org</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+  <div vocab="https://schema.org/" typeof="Product">
+    <span property="name">Blog books landscape</span>
+    <img property="image" src="https://ipt.imgix.net/201444/x/0/how-and-why-you-should-shoot-vertical-landscape-photos-3.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=1300" alt='Kenmore 17" Microwave' />
+    <div property="aggregateRating"
+       typeof="AggregateRating">
+     Rated <span property="ratingValue">3.3</span>/5
+     based on <span property="reviewCount">11</span> Readers blog
+    </div>
+    Articles:
+    <span property="description">Welcome to my block, I talk about beautiful books landscape. I'd like to share 
+      with you nice pictures from unique places which will surprise you. Book's articles have good documentions.</span>
+      Customer reviews: Satisfied
+    <div property="review" typeof="Review">
+      <span property="name">UK wild Landscape</span> -
+      by <span property="author">Helen</span>,
+      <meta property="datePublished" content="2011-04-01">November 8, 2020
+      <div property="reviewRating" typeof="Rating">
+        <meta property="worstRating" content = "1">
+        <span property="ratingValue">1</span>/
+        <span property="bestRating">5</span> stars
+      </div>
+      <span property="reviewBody">Discovering countries wild landscape. </span>
+    </div>
+    <div property="review" typeof="Review">
+      <span property="name">Value purchase</span> -
+      by <span property="author">Lucas</span>,
+      <meta property="datePublished" content="2011-03-25">Octotber 25, 2020
+      <div property="reviewRating" typeof="Rating">
+        <meta property="worstRating" content = "1"/>
+        <span property="ratingValue">3,5</span>/
+        <span property="bestRating">5</span> stars
+    ...
+  </div>
+</body>
+
+

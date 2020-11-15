@@ -1,0 +1,74 @@
+
+/*========== body ==========*/
+body {
+    background-image: url(../Images/aquarelle-paper-texture_1194-5299.jpg);
+    width: 1200px;
+    height: 1880px;
+}
+
+/*========== nav, logo ==========*/
+header, nav {
+    list-style: none;
+    text-align : center;
+    margin-left: 3%;
+}
+
+nav img {
+    width: 10%;
+    float: left;
+}
+
+li #fond-categorie1 {
+    width: 153px;
+    overflow: hidden;
+    border: 1px solid #ecebe7;
+    color: #594a49;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav, ul p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*========== images ==========*/
+div img {
+    width: 358px;
+    height: 476px;
+    background-color: white;
+    padding-right: 440px;
+    margin: 57px;
+    margin-left: 302px;
+}
+
+/*========== div texte ==========*/
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Chalkboard;
+    padding-top: 1em;
+    text-align: justify;
+    padding-bottom: 70px;
+    margin-bottom: 25px;
+}
+
+.texte1, .texte2, .texte3, .texte4 {
+    justify-content: center;
+}
+
+
+
+
+/*========== footer ==========*/
+.pied-page {
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
